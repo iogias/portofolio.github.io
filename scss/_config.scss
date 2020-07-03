@@ -3,11 +3,12 @@ $secondary-color: #fad60b;
 $show-home-image: true;
 $home-image: url("../img/background.jpg");
 $background-opacity: 0.7;
+
 // $header-font: "Bebas Neue", Tahoma;
 // $font-body: "Segoe UI", Helvetica, sans-serif;
 @mixin google-font($family) {
   @import url("http://fonts.googleapis.com/css?family=#{$family}");
-  font-family: $family;
+  font-family: $family, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @mixin easeOut {
